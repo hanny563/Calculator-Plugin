@@ -1,0 +1,81 @@
+
+#calculator {
+	width: 243px;
+	height: auto;
+	
+	margin: 7px auto;
+	padding: 7px 7px 6px;
+
+}
+
+.top span.clear {
+	float: left;
+}
+
+.top .screen {
+	height: 31px;
+	width: 210px;
+	float: left;	
+	padding: 0 10px;
+	background: gray;
+	border-radius: 2px;
+	
+	font-size: 17px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 0.863);
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.keys, .top {
+    overflow: hidden;
+}
+
+.keys span, .top span.clear {
+	float: left;
+	position: relative;
+	top: 0;
+	
+	cursor: pointer;
+	
+	width: 54px;
+	height: 31px;
+	
+	background: gray;
+	border-radius: 3px;
+	
+	margin: 0 7px 10px 0;
+	
+	color: #290000;
+	line-height: 31px;
+	text-align: center;
+	
+	-moz-user-select:none;
+	-khtml-user-select: none;
+	-webkit-user-select: none;
+	
+	transition: all 0.2s ease;
+}
+
+#copybutton{
+	width: 116px;
+    background: gray;
+}
+
+.keys span.operator {
+    color: black;
+	float: right;
+	background: gray;
+	margin-right: 6px;
+}
+
+.keys span.equal {
+	background: gray;
+	color: rgba(0, 0, 0, 0.863);
+}
+
+.top span.clear {
+	background: #ffecee;
+	color: #ff6072;
+}
+
